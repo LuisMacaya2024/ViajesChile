@@ -9,6 +9,10 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
     <!--ICONOS-->
     <script src="https://kit.fontawesome.com/60f63a66d7.js" crossorigin="anonymous"></script>
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
     <title>Viajes Chile</title>
 </head>
 <body>
@@ -18,18 +22,18 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent navbar-static fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand nav-link" href="#">
-                    <img src="/assets/img/viajes.svg" alt="Logo" id="logotipo"></a><h4 onclick="this.innerHTML='VIAJES CHILE'">Click Aqui</h4>
+                    <img src="/assets/img/viajes.svg" alt="Logo" id="logotipo"></a><h4 onclick="this.innerHTML='VIAJES CHILE'" class="anta-regular">Click Aqui</h4>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ">
                   
-                  <a class="nav-link " href="#"><button type="button" class="btn btn-outline-info">Inicio</button></a>
-                  <a class="nav-link" href="#"><button type="button" class="btn btn-outline-info">Quienes Somos</button></a>
-                  <a class="nav-link" href="#"><button type="button" class="btn btn-outline-info">Destacados</button></a>
-                  <a class="nav-link" href="#"><button type="button" class="btn btn-outline-info">Contacto</button></a>
-                  <button onclick="myFunction()">¡Importante!</button>
+                  <a class="nav-link " href="#"><button type="button" class="btn btn-outline-info anta-regular">Inicio</button></a>
+                  <a class="nav-link" href="#"><button type="button" class="btn btn-outline-info anta-regular">Quienes Somos</button></a>
+                  <a class="nav-link" href="#"><button type="button" class="btn btn-outline-info anta-regular">Destacados</button></a>
+                  <a class="nav-link" href="#"><button type="button" class="btn btn-outline-info anta-regular">Contacto</button></a>
+                  <button onclick="myFunction()" class="anta-regular">¡Importante!</button>
                 </div>
               </div>
             </div>
@@ -66,7 +70,7 @@
     </section>
     <!--titulo-->
     <section class="text-bg-dark">
-        <h1 class="text-center pt-5 pb-5">¿QUIENES SOMOS?</h1><hr>
+        <h1 class="text-center pt-5 pb-5 anta-regular">¿QUIENES SOMOS?</h1><hr>
     </section>
     <!--texto en 3 secciones-->
     <section class="text-bg-dark d-none d-sm-none d-md-block">
@@ -75,19 +79,19 @@
 
           <div class="col-12 col-md-4">
             <div class="bg-info text-center p-1" ><i class="fa-solid fa-plane fa-xl" style="color: #ffffff;" ></i></div>
-            <div class="p-3"  onmouseover="style.color='gray'"
+            <div class="p-3 anta-regular"  onmouseover="style.color='gray'"
             onmouseout="style.color='white'">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
           </div>
 
           <div class="col-12 col-md-4">
-            <div class="p-3" onmouseover="style.color='gray'"
+            <div class="p-3 anta-regular" onmouseover="style.color='gray'"
             onmouseout="style.color='white'">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
             <div class="bg-info text-center p-1"><i class="fa-solid fa-triangle-exclamation fa-xl" style="color: #ffffff;"></i></div>
         </div>
 
           <div class="col-12 col-md-4">
             <div class="bg-info text-center p-1"><i class="fa-solid fa-map-location-dot fa-xl" style="color: #ffffff;"></i></div>
-            <div class="p-3" onmouseover="style.color='gray'"
+            <div class="p-3 anta-regular" onmouseover="style.color='gray'"
             onmouseout="style.color='white'">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
           </div>
         </div>
@@ -99,7 +103,7 @@
 <section class="bg-dark">
     <!--titulo-->
     <section class="text-bg-dark">
-        <h1 class="text-center pt-5 pb-5">DESTACADOS</h1><hr>
+        <h1 class="text-center pt-5 pb-5 anta-regular">DESTACADOS</h1><hr>
     </section>
     <div class="row row-cols-1 row-cols-md-4 g-3 m-5">
         <!--1-->
@@ -107,8 +111,8 @@
           <div class="card h-100 bg-info">
             <img src="/assets/img/card1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text anta-regular" onmouseover="style.color='gray'"
+              onmouseout="style.color='white'">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
             
           </div>
@@ -119,7 +123,8 @@
             <img src="/assets/img/card2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text anta-regular" onmouseover="style.color='gray'"
+              onmouseout="style.color='white'">This card has supporting text below as a natural lead-in to additional content.</p>
             </div>
            
           </div>
@@ -130,7 +135,8 @@
             <img src="/assets/img/card3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text anta-regular" onmouseover="style.color='gray'"
+              onmouseout="style.color='white'">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
             </div>
             
           </div>
@@ -141,14 +147,15 @@
               <img src="/assets/img/card4.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text anta-regular" onmouseover="style.color='gray'"
+                onmouseout="style.color='white'">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
               </div>
             </div>
           </div>
       </div>
       <!--titulo-->
       <section class="text-bg-dark">
-        <h1 class="text-center pt-5 pb-5">CONTACTO</h1><hr>
+        <h1 class="text-center pt-5 pb-5 anta-regular">CONTACTO</h1><hr>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
     </section>
 
@@ -161,25 +168,25 @@
         <!--Nombre-->
         <div class="row mb-3">
           <div class="col-sm-12">
-            <p class="form-text">Nombre</p>
-            <input type="txt" class="form-control" id="inputnombre">
+            <label class="form-text anta-regular">Nombre</label>
+            <input type="text" class="form-control" id="inputnombre">
           </div>
         </div>
         <!--Asunto-->
         <div class="row mb-3">
           <div class="col-sm-12">
-            <p class="form-text">Asunto</p>
-            <input type="txt" class="form-control" id="inputasunto">
+            <label class="form-text anta-regular">Asunto</label>
+            <input type="text" class="form-control" id="inputasunto">
           </div>
         </div>
         <!--Mensaje-->
         <div class="row mb-3">
             <div class="col-sm-12">
-                <p class="form-text">Mensaje</p>
-              <input type="txt" class="form-control" id="inputmensaje">
+                <label class="form-text anta-regular">Mensaje</label>
+              <textarea type="text" class="form-control" id="inputmensaje" rows="8" cols="10"></textarea>
             </div>
         </div>
-        <button type="submit" class="btn btn-info">Enviar</button>
+        <button type="submit" class="btn btn-info anta-regular">Enviar</button>
       </form>
       
     </div>
@@ -190,7 +197,7 @@
 <footer class="bg-info">
     <div class="container "></div>
     <div class="row text-center">
-        <div class="col-6 form-text p-3"><h5>VIAJES CHILE</h5></div>
+        <div class="col-6 form-text p-3 anta-regular"><h5>VIAJES CHILE</h5></div>
         <div class="col-6 form-text p-3">
             <a href="www.facebook.com"><i class="fa-brands fa-square-facebook fa-lg p-1" style="color: #ffffff;" ></i></a>
             <a href="www.twitter.com"><i class="fa-brands fa-square-twitter fa-lg p-1" style="color: #ffffff;"></i></a>
