@@ -1,0 +1,16 @@
+#logotipo{
+    width: 30px;
+    margin-left: 40%;
+}
+.form-text, .card-text, .btn, .p{
+    color: #fff;
+}
+
+.navbar-nav{
+    padding-left: 50%;
+}
+
+.nav-link {
+    color: rgb(139, 191, 207);
+}
+
